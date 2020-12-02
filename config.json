@@ -1,6 +1,53 @@
 {
   "chains": [
     {
+      "id": "777e52931745f8e81b186af5e380d55eb0cf2378a3a9192597004527176a463d",
+      "symbol": "ATX",
+      "icon": "wax.png",
+      "precision": 4,
+      "name": "Artist Network",
+      "network": "MAINNET",
+      "firstApi": "http://localhost:8711",
+      "historyApi": "http://localhost:8711/v2",
+      "hyperionApis": [],
+      "forumTally": "",
+      "lastNode": "",
+      "logoSrc": "",
+      "backdrop": "",
+      "features": {
+        "history": true,
+        "send": true,
+        "resource": true,
+        "vote": true,
+        "staking": true,
+        "dapps": true,
+        "addAcc": true,
+        "newAcc": true,
+        "forum": false,
+        "rex": false
+      },
+      "system": [
+        "eosio",
+        "eosio.token",
+        "eosio.msig"
+      ],
+      "endpoints": [
+        {
+          "url": "http://localhost:8711",
+          "owner": "Artist Network - ATX",
+          "latency": 0,
+          "version": "native"
+        },
+      ],
+      "explorers": [
+        {
+          "name": "Artist Network Explorer",
+          "account_url": "http://localhost:5111/account/",
+          "tx_url": "http://localhost:5111/transaction"
+        }
+      ]
+    },
+    {
       "id": "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
       "symbol": "EOS",
       "icon": "eos.png",
