@@ -1,14 +1,14 @@
 {
   "chains": [
     {
-      "id": "777e52931745f8e81b186af5e380d55eb0cf2378a3a9192597004527176a463d",
+      "id": "18dd756f9f09f5cf01b66fd0069bf74f64e704b11ba05157a4260fb424d0fddb",
       "symbol": "ATX",
       "icon": "wax.png",
       "precision": 4,
       "name": "Artist Network",
       "network": "MAINNET",
-      "firstApi": "http://localhost:8711",
-      "historyApi": "http://localhost:8711/v2",
+      "firstApi": "http://144.91.99.232",
+      "historyApi": "http://144.91.99.232/v2",
       "hyperionApis": [],
       "forumTally": "",
       "lastNode": "",
@@ -33,7 +33,7 @@
       ],
       "endpoints": [
         {
-          "url": "http://localhost:8711",
+          "url": "http://144.91.99.232",
           "owner": "Artist Network - ATX",
           "latency": 0,
           "version": "native"
@@ -42,8 +42,8 @@
       "explorers": [
         {
           "name": "Artist Network Explorer",
-          "account_url": "http://localhost:5111/account/",
-          "tx_url": "http://localhost:5111/transaction"
+          "account_url": "http://144.91.99.232/account/",
+          "tx_url": "http://144.91.99.232/transaction"
         }
       ]
     },
