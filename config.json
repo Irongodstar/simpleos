@@ -7,8 +7,8 @@
       "precision": 4,
       "name": "Artist Network",
       "network": "MAINNET",
-      "firstApi": "http://144.91.99.232",
-      "historyApi": "http://144.91.99.232/v2",
+      "firstApi": "http://144.91.99.232:8711",
+      "historyApi": "http://144.91.99.232:8711/v2",
       "hyperionApis": [],
       "forumTally": "",
       "lastNode": "",
@@ -33,7 +33,7 @@
       ],
       "endpoints": [
         {
-          "url": "http://144.91.99.232",
+          "url": "http://144.91.99.232:8711",
           "owner": "Artist Network - ATX",
           "latency": 0,
           "version": "native"
